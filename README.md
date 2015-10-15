@@ -37,3 +37,12 @@ Edit the file `/opt/kibana-4.1.2-linux-x64/config/kibana.yml`.
 
 #### Run the fluentd aggregator
 `fluentd-master/bin/fluentd -c config_files/fluentd/consumer/fromkafka.conf `
+
+
+
+
+
+### Producer Specific
+
+#### Run the Kafka producer
+`/opt/kafka_2.10-0.8.2.2/bin/kafka-console-producer.sh  --topic tokafka --broker-list linuxbox:9092`
