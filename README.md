@@ -7,7 +7,7 @@ Run `pre-install.sh`, `download.sh`, `install.sh` in this order.
 Edit the file `/opt/kafka_2.10-0.8.2.2/config/server.properties`.
 
 - Set the broker.id in line number 20.
-- Add your hostname in line number 28.
+- Add your hostname:port in line number 28.
 - Add the address of the Zookeeper host in line number 118.
 
 
